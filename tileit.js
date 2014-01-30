@@ -1,5 +1,5 @@
 /**
-   @author : Gilroy Gordon
+   @author : gggordon
    @date : January 23, 2014
    @name : TileItJs
    @description : A tiny jquery plugin to create mobile friendly tiles
@@ -32,8 +32,8 @@
 		   tileMargin:"5%",
 		   tileMarginFoot:"12px",
 		   gradientDirection:"vertical",
-		   gradientStartColor:"#E8A70C", //yellow
-		   gradientEndColor:"#27AB03", //green
+		   gradientStartColor:"#FFFFFF", //yellow
+		   gradientEndColor:"#000000", //green
 		   titleFont:"Helvetica",
 		   titleColor:"#FFFFFF",
 		   borderRadius:"12px",
