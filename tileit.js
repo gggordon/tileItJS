@@ -9,8 +9,8 @@
    
    pass ul to selector and invoke plugin
 */
-(function(w,$){
-   if(w == undefined || $ == undefined)
+(function($){
+   if( $ == undefined)
        throw "TileItJS Error : jQuery is not defined";
    
    function hexToRgb(hex,opacity) {
@@ -32,8 +32,8 @@
 		   tileMargin:"5%",
 		   tileMarginFoot:"12px",
 		   gradientDirection:"vertical",
-		   gradientStartColor:"#FFFFFF", //yellow
-		   gradientEndColor:"#000000", //green
+		   gradientStartColor:"#FFFFFF", 
+		   gradientEndColor:"#000000", 
 		   titleFont:"Helvetica",
 		   titleColor:"#FFFFFF",
 		   borderRadius:"12px",
@@ -108,4 +108,4 @@
 			});
 	   });
    };
-})(window,jQuery);
+})(jQuery);
